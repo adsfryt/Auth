@@ -18,7 +18,7 @@ import subjectRouter from "./Router/subjectRouter.js";
 
 const numCPUs = os.cpus().length;
 
-const db_url = "mongodb+srv://Test123:BsYmUzxwS2SZQzdh@cluster0.yzniy.mongodb.net/\n";
+const db_url = "mongodb+srv://Test123:@cluster0.yzniy.mongodb.net/\n";
 const PORT = 6000;
 const app = express();
 
